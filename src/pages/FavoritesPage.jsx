@@ -1,7 +1,7 @@
 function FavoritesPage() {
   return (
     <>
-      <h1 className="text-2xl">Your favorites:</h1>
+      <h1 className="text-3xl font-bold font-poppins text">Your favorites:</h1>
     </>
   );
 }

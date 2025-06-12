@@ -3,8 +3,8 @@ import FavoriteIconBorder from "@mui/icons-material/FavoriteBorder";
 import { useState } from "react";
 
 export default function RecipeCard({ dish, favorite }) {
+  
   const [fav, setFav] = useState(favorite);
-
   // function to toggle favorite
   const isFavorite = () => {
     setFav((prev) => !prev);
